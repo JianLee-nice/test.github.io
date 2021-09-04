@@ -1,0 +1,359 @@
+/* 字体图标start */
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1619602266259');
+    /* IE9 */
+    src: url('iconfont.eot?t=1619602266259#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'), url('iconfont.woff?t=1619602266259') format('woff'), url('iconfont.ttf?t=1619602266259') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1619602266259#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 字体图标end */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+
+/* 快捷导航模块开始 */
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    /* 让快捷导航栏的偶数li设置竖线相隔 */
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+
+.arrow-icon::after {
+    content: "\e665";
+    font-family: "iconfont" !important;
+    margin-left: 6px;
+}
+
+
+/* 快捷导航模块结束 */
+
+
+/* header头部制作start */
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url(../images/logo.png) no-repeat;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #b1191a;
+}
+
+.hotword {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+
+.hotword a {
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar::before {
+    content: '\e746';
+    color: #b1191a;
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.shopcar::after {
+    content: '\e687';
+    font-family: "iconfont" !important;
+    margin-left: 10px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+}
+
+.count a {
+    display: block;
+}
+
+
+/* header头部制作end */
+
+
+/* nav导航栏模块制作开始 */
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 45px;
+    background-color: #b1191a;
+}
+
+.nav .navitems {
+    float: left;
+}
+
+.nav .dropdown .dt {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.nav .dropdown .dd {
+    /* display: none; */
+    width: 100%;
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.nav .dropdown .dd ul li {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 10px;
+}
+
+.nav .dropdown .dd ul li::after {
+    content: '\e687';
+    font-family: "iconfont" !important;
+    float: right;
+    margin-right: 10px;
+    color: #f1f1f1;
+}
+
+.nav .dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.nav .dropdown .dd ul li:hover a {
+    color: #e60012;
+}
+
+.nav .dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav .navitems ul li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.nav .navitems ul li a {
+    font-size: 14px;
+    color: #333333;
+    padding: 0px 25px;
+}
+
+.nav .navitems ul li a:hover {
+    color: #e60012;
+}
+
+
+/* nav导航栏模块制作结束 */
+
+
+/* 底部模块制作开始 */
+
+.footer {
+    height: 400px;
+    background-color: #f5f5f5;
+}
+
+.footer .w .mod_service {
+    height: 110px;
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.mod_service li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    background: url(../images/jiling.png) no-repeat;
+}
+
+.mod_service li .zheng {
+    background-position: -253px -3px;
+}
+
+.mod_service li .kuai {
+    background-position: -253px -54px;
+}
+
+.mod_service li .shou {
+    background-position: -253px -106px;
+}
+
+.mod_service li .tese {
+    background-position: -253px -157px;
+}
+
+.mod_service li .help {
+    background-position: -253px -209px;
+}
+
+.service_txt h4 {
+    font-size: 14px;
+    padding: 4px 0px;
+    color: #333333;
+}
+
+.service_txt p {
+    font-size: 12px;
+    color: #666666;
+}
+
+.footer .w .mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+    padding-left: 35px;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    color: #333333;
+    padding: 10px 0px;
+}
+
+.mod_help dl dd {
+    font-size: 12px;
+    color: #666666;
+    padding: 0px 0px 5px;
+}
+
+.mod_help dl:last-child {
+    text-align: center;
+}
+
+.mod_copyright {
+    /* 文本居中对齐 */
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    margin-bottom: 15px;
+}
+
+.mod_copyright .copyright {
+    line-height: 20px;
+}
+
+
+/* 底部模块制作结束*/

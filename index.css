@@ -1,0 +1,337 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+}
+
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 100%;
+}
+
+.main .newflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+
+.newflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.newflash .news .new_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0px 15px;
+}
+
+.newflash .news .new_hd h5 {
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+
+.newflash .news .new_hd a {
+    float: right;
+    font-size: 12px;
+}
+
+.news .new_bd ul li {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    /* 溢出部分省略号显示 */
+    overflow: hidden;
+    /* 文字强制一行显示 */
+    white-space: nowrap;
+    /* 文字超出省略号显示 */
+    text-overflow: ellipsis;
+}
+
+.newflash .lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.newflash .lifeservice ul {
+    width: 252px;
+}
+
+.newflash .lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.newflash .lifeservice .减 .icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.newflash .lifeservice ul li a {
+    display: inline-block;
+    width: 63px;
+    height: 70px;
+}
+
+.newflash .lifeservice ul li i {
+    /* 把i转为行内块元素 */
+    display: inline-block;
+    width: 25px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+
+/* 鼠标经过时，显示阴影效果 */
+
+.newflash .lifeservice ul li:hover {
+    box-shadow: -0.5px 0.5px 2px 2px rgba(0, 0, 0, .4);
+}
+
+.lifeservice ul li:nth-of-type(1) i {
+    background: url(../images/jiling.png) no-repeat -16px -16px;
+}
+
+.lifeservice ul li:nth-of-type(2) i {
+    background: url(../images/jiling.png) no-repeat -77px -16px;
+}
+
+.lifeservice ul li:nth-of-type(3) i {
+    background: url(../images/jiling.png) no-repeat -140px -16px;
+}
+
+.lifeservice ul li:nth-of-type(4) i {
+    background: url(../images/jiling.png) no-repeat -206px -16px;
+}
+
+.lifeservice ul li:nth-of-type(5) i {
+    background: url(../images/jiling.png) no-repeat -16px -88px;
+}
+
+.lifeservice ul li:nth-of-type(6) i {
+    background: url(../images/jiling.png) no-repeat -77px -88px;
+}
+
+.lifeservice ul li:nth-of-type(7) i {
+    background: url(../images/jiling.png) no-repeat -140px -88px;
+}
+
+.lifeservice ul li:nth-of-type(8) i {
+    background: url(../images/jiling.png) no-repeat -206px -88px;
+}
+
+.lifeservice ul li:nth-of-type(9) i {
+    background: url(../images/jiling.png) no-repeat -16px -158px;
+}
+
+.lifeservice ul li:nth-of-type(10) i {
+    background: url(../images/jiling.png) no-repeat -77px -158px;
+}
+
+.lifeservice ul li:nth-of-type(11) i {
+    background: url(../images/jiling.png) no-repeat -140px -158px;
+}
+
+.lifeservice ul li:nth-of-type(12) i {
+    background: url(../images/jiling.png) no-repeat -206px -158px;
+}
+
+.newflash .bargain {
+    margin-top: 5px;
+}
+
+.recomment {
+    height: 163px;
+    margin-top: 12px;
+}
+
+.recomment_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recomment_bd {
+    float: left;
+    height: 163px;
+    width: 995px;
+    background-color: #ebebeb;
+}
+
+.recomment_bd ul li {
+    float: left;
+    width: 248px;
+    line-height: 163px;
+    text-align: center;
+}
+
+.recomment_bd ul li:nth-child(even) {
+    float: left;
+    height: 145px;
+    width: 1px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+
+/* 猜你喜欢模块start */
+
+.favor {
+    margin-top: 15px;
+}
+
+.favor_hd {
+    height: 35px;
+    line-height: 35px;
+}
+
+.favor_hd h5 {
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+
+.favor_hd a {
+    display: block;
+    float: right;
+    font-size: 12px;
+    text-align: center;
+}
+
+.favor_bd {
+    height: 233px;
+    border: 1px solid #ebebeb;
+}
+
+.favor_bd li {
+    float: left;
+    width: 199.5px;
+    height: 232px;
+}
+
+.favor_bd li:hover {
+    box-shadow: -2px -1px 5px 1px;
+}
+
+.favor_bd li div {
+    width: 100%;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+}
+
+.favor_bd li div h6 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+/* 猜你喜欢模块end */
+
+
+/* flood楼层区，该板块不用去设置高度 */
+
+
+/* 家用电器模块start */
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.box_hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.box_hd .tab_list ul li {
+    float: left;
+}
+
+.box_hd .tab_list ul li a {
+    padding: 0 15px;
+}
+
+.box_bd {
+    height: 362px;
+    background-color: white;
+}
+
+
+/* 子代选择器 */
+
+.tab_list_item>div {
+    float: left;
+    height: 362px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    margin-right: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 85px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_221 {
+    width: 221px;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转换为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* 家用电器模块end */
